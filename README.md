@@ -1,5 +1,12 @@
 An API Proxy project for - DuckDuckGo API
 
+Prerequisites : 
+
+- Run this server side app first (hosted on IIS)
+- Run the react UI project from main folder , CMD -> <{app folder}> npm start
+
+Application Description :
+
 -Choose an api method ( Get,Post ) from the selector for search oporation. -Search for a term of your choice to get results.
 
 -After each search the query parameter will be shown on a list on the left side of the screen. Clicking on a link will result in search operation that link's search parameter and will show results on the screen.
